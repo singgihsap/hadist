@@ -1,0 +1,22 @@
+{
+  "name": "Hadist",
+  "authors": [
+    "Singgih Saputro <singgihsap@gmail.com>"
+  ],
+  "description": "Hadist",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}

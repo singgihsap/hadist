@@ -1,0 +1,95 @@
+/**============================
+ * Author 	: Singgih Saputro
+ * Twitter 	: @singgihsap
+ * Title 	: Hadist
+ * Version 	: 1.0
+ * ============================
+ * #1.GENERAL
+ * #2.HEADER
+ * #3.CONTENT
+ * #4.FOOTER  
+ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+/* =================================== */
+/* START: #1.GENERAL */
+/* =================================== */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #F5F5F5;
+  font-size: 14px; }
+
+.container {
+  max-width: 1080px; }
+
+a:focus {
+  outline: none; }
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.78);
+  height: 42px; }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #2E8B57; }
+
+.btn-search {
+  height: 42px; }
+
+/* =================================== */
+/* END: #1.GENERAL */
+/* =================================== */
+/* =================================== */
+/* START: #2.HEADER */
+/* =================================== */
+.header-top .navbar {
+  background-color: #2E8B57;
+  border-color: transparent; }
+  .header-top .navbar .navbar-brand {
+    color: #FFF;
+    text-transform: uppercase; }
+  .header-top .navbar .navbar-nav li a {
+    color: #FFF; }
+    .header-top .navbar .navbar-nav li a:hover {
+      color: #000; }
+
+/* =================================== */
+/* END: #2.HEADER */
+/* =================================== */
+/* =================================== */
+/* START: #3.CONTENT */
+/* =================================== */
+.content .jumbotron {
+  padding: 230px 25px;
+  color: #FFF;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  background-color: transparent;
+  background-image: url(../assets/images/background.jpg);
+  background-size: cover; }
+  .content .jumbotron h1 {
+    background-color: rgba(46, 139, 87, 0.35);
+    display: inline-block;
+    padding: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px; }
+
+/* =================================== */
+/* END: #3.CONTENT */
+/* =================================== */
+/* =================================== */
+/* START: #4.FOOTER */
+/* =================================== */
+footer {
+  background-color: #2E8B57;
+  padding: 10px;
+  text-align: center;
+  color: #FFF; }
+  footer p {
+    margin: 0px; }
+
+/* =================================== */
+/* END: #4.FOOTER */
+/* =================================== */
+
+/*# sourceMappingURL=app.css.map */

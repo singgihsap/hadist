@@ -1,0 +1,145 @@
+/**============================
+ * Author 	: Singgih Saputro
+ * Twitter 	: @singgihsap
+ * Title 	: Hadist
+ * Version 	: 1.0
+ * ============================
+ * #1.GENERAL
+ * #2.HEADER
+ * #3.CONTENT
+ * #4.FOOTER  
+ **/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300)
+
+$white: #FFF
+$black: #000
+$grey: #F5F5F5
+$grey-light: #EEEEEE
+$grey-black: #DDDDDD
+$green: #2E8B57
+$green-light: #00A352
+
+$margin: 5px
+$margin-top: 5px
+$margin-right: 5px
+$margin-bottom: 5px
+$margin-left: 5px
+
+$padding: 5px
+$padding-top: 5px
+$padding-right: 5px
+$padding-bottom: 5px
+$padding-left: 5px
+
+=fonts($fonts)
+	font-family: $fonts, sans-serif
+
+=transition($transition)
+	-webkit-transition: all $transition ease-in-out
+	-moz-transition: all $transition ease-in-out
+	-o-transition: all $transition ease-in-out
+	transition: all $transition ease-in-out
+
+=box-shadow($dark)
+	-webkit-box-shadow: $dark
+	-moz-box-shadow: $dark
+	-o-box-shadow: $dark
+	box-shadow: $dark
+
+=border-radius($border-radius)
+	-webkit-border-radius: $border-radius
+	-moz-border-radius: $border-radius
+	-o-border-radius: $border-radius
+	border-radius: $border-radius
+
+/* =================================== */
+/* START: #1.GENERAL */
+/* =================================== */
+body
+	+fonts('Lato')
+	background-color: $grey
+	font-size: 14px
+
+.container
+	max-width: 1080px
+
+a
+	&:focus
+		outline: none
+
+.form-control
+	background-color: rgba(255, 255, 255, 0.78)
+	height: 42px
+	&:focus
+		box-shadow: none
+		border-color: $green
+
+.btn-search
+	height: 42px
+
+/* =================================== */
+/* END: #1.GENERAL */
+/* =================================== */
+
+/* =================================== */
+/* START: #2.HEADER */
+/* =================================== */
+.header-top
+	.navbar
+		background-color: $green
+		border-color: transparent
+
+		.navbar-brand
+			color: $white
+			text-transform: uppercase
+
+		.navbar-nav
+			li
+				a
+					color: $white
+					&:hover
+						color: $black
+
+/* =================================== */
+/* END: #2.HEADER */
+/* =================================== */
+
+/* =================================== */
+/* START: #3.CONTENT */
+/* =================================== */
+.content
+	.jumbotron
+		padding: 230px 25px
+		color: $white
+		margin-bottom: $margin-bottom - 5
+		margin-top: $margin-top + 10
+		background-color: transparent
+		background-image: url(../assets/images/background.jpg)
+		background-size: cover
+
+		h1
+			background-color: rgba(46, 139, 87, 0.35)
+			display: inline-block
+			padding: $padding + 7
+			+border-radius(8px)
+
+/* =================================== */
+/* END: #3.CONTENT */
+/* =================================== */
+
+/* =================================== */
+/* START: #4.FOOTER */
+/* =================================== */
+footer
+	background-color: $green
+	padding: $padding + 5
+	text-align: center
+	color: $white
+
+	p
+		margin: $margin - 5
+
+/* =================================== */
+/* END: #4.FOOTER */
+/* =================================== */
