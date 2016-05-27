@@ -82,6 +82,11 @@ a:focus {
   border-bottom: 1px solid #DDDDDD; }
 .content-main .content .content-post .hadist p {
   font-size: 28px; }
+.content-main .content .content-post .intro p {
+  line-height: 1.8em; }
+.content-main .content .content-post .description p {
+  text-align: justify;
+  line-height: 1.8em; }
 
 /* =================================== */
 /* END: #3.CONTENT */
