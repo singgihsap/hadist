@@ -108,7 +108,13 @@ a
 /* =================================== */
 /* START: #3.CONTENT */
 /* =================================== */
-.content
+.content-main
+	.search-card
+		padding: 30px 25px !important
+
+		h1
+			font-size: 22px
+
 	.jumbotron
 		padding: 230px 25px
 		color: $white
@@ -124,6 +130,11 @@ a
 			padding: $padding + 7
 			+border-radius(8px)
 
+	.content
+		.box
+			padding-bottom: $padding-bottom + 5
+			border-bottom: 1px solid $grey-black
+
 /* =================================== */
 /* END: #3.CONTENT */
 /* =================================== */
@@ -136,6 +147,8 @@ footer
 	padding: $padding + 5
 	text-align: center
 	color: $white
+	position: absolute
+	width: 100%
 
 	p
 		margin: $margin - 5
