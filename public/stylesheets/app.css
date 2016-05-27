@@ -80,6 +80,8 @@ a:focus {
 .content-main .content .box {
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDDDD; }
+.content-main .content .content-post .hadist p {
+  font-size: 28px; }
 
 /* =================================== */
 /* END: #3.CONTENT */
