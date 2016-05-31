@@ -80,6 +80,18 @@ a:focus {
 .content-main .content .box {
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDDDD; }
+  .content-main .content .box .box-title h3 a {
+    color: #2E8B57; }
+    .content-main .content .box .box-title h3 a:hover {
+      color: #000;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .content-main .content .box .box-meta span {
+    font-size: 12px; }
+  .content-main .content .box .box-content p {
+    line-height: 1.8em; }
 .content-main .content .content-post .hadist p {
   font-size: 28px; }
 .content-main .content .content-post .intro p {
